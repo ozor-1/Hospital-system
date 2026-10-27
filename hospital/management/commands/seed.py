@@ -394,3 +394,4 @@ class Command(BaseCommand):
             problems.append("not exactly one invoice per visit")
         if problems:
             raise CommandError("Fake data broke the rules: " + "; ".join(problems))
+        
